@@ -1,0 +1,123 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*Estilo de letra*/
+    background-color: #b4d7f3cc;
+    /*Fondo de pantalla*/
+    font-size: 18px;
+    /*Tamaño de letra*/
+    font-weight: normal;
+    /*Ancho de letra*/
+    margin: 0;
+    /*Todos los margeners*/
+    border: 0;
+    /**/
+    padding: 0;
+    /**/
+}
+
+
+Div.Principal {
+    width: 600px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    /*margen de arriba*/
+    color: white;
+    box-shadow: 7px 13px 37px rgb(95, 89, 89);
+    /*la sombra de la figura*/
+}
+
+#Borde {
+
+    float: left;
+    /*Aliniar el texto a la izquierda del otro elemeento */
+}
+
+#Segundo {
+    width: 900px;
+    /*Ancho del area de elemento*/
+}
+
+select {
+    width: 50%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    color: white;
+}
+
+input.button {
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-left: 40px;
+}
+
+.control {
+    width: 45%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    color: white;
+
+}
+
+.Cont {
+    width: 20%;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+.nav {
+    /*Estilo y bloques de la lista*/
+    display: inline-block;
+    width: 98%;
+    align-items: center;
+    background: #094f9e;
+    padding: 8px;
+    transition: all 1.6 ease;
+}
+
+.menu {
+    /*Coloca la lista en una sola fila*/
+    display: flex;
+}
+
+.menu li {
+    /*Que tan cerca estan los elementos del otro*/
+    list-style: none;
+    margin-left: 135px;
+}
+
+.menu li a {
+    /*El color del texto junto con su estilo*/
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.menu li a:hover {
+    /*Cambia el color de letra y del bloque cuando se seleciona*/
+    width: 600px;
+    background: #098d9ece;
+    padding: 30px;
+    border-radius: 4px;
+    color: black;
+    box-shadow: 7px 13px 37px rgb(95, 89, 89);
+}
+
+/*lista desplegable de solicitud*/
+.nav>li {
+    float: left;
+}
